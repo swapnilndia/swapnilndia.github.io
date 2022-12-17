@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": ".",
+  "homepage": "https://swapnilndia.gitHub.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
