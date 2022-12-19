@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1yxjs8qsgsz9WPZ8gVuJ83DC-RtJboXdO/view?usp=sharing",
+  portfolio_repository: "https://github.com/swapnilndia/swapnilndia.github.io",
+  githubProfile: "https://github.com/swapnilndia",
 };
 
 const socialMediaLinks = [
@@ -129,11 +129,11 @@ const skills = {
     // },
     {
       title: "Front End Development",
-      fileName: "FullStackImg",
+      fileName: "Frontend",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using React.",
+        "⚡ Managing states of the react with  help of the Redux.",
+        "⚡ Applying firebase for the Authentication, Deployement and Database management.",
       ],
       softwareSkills: [
         {
@@ -337,22 +337,15 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/swapnil240695",
     },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "simple-icons:codechef",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#5B4638",
+      },
+      profileLink: "https://leetcode.com/Swapnilndia/",
+    },
+
     // {
     //   siteName: "Hackerearth",
     //   iconifyClassname: "simple-icons:hackerearth",
@@ -381,9 +374,9 @@ const degrees = {
       alt_name: "Aktu",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ My course was focussed on the civil engineering, but I have also studied basic Computer-Based Numerical and Statistical Techniques and Basic programming in C-language.",
+        "⚡ Apart from this, I have participated in various colleges event and won various prizes and certificates.",
+        "⚡I had also qualified gate 2019.",
       ],
       website_link: "https://www.abes.ac.in/",
     },
@@ -395,7 +388,7 @@ const certifications = {
     {
       title: "JavaScript",
       subtitle: "- Jonas Schmedtmann",
-      logo_path: "stanford_logo.png",
+      logo_path: "udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-11315c74-70ff-4158-bc17-00293e58a3b8/",
       alt_name: "Stanford University",
@@ -404,7 +397,7 @@ const certifications = {
     {
       title: "CSS",
       subtitle: "- Maximilian",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-8b26def6-9af0-4443-8841-20f3aad25c5c/",
       alt_name: "deeplearning.ai",
@@ -413,7 +406,7 @@ const certifications = {
     {
       title: "React",
       subtitle: "- Maximilian",
-      logo_path: "google_logo.png",
+      logo_path: "udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-b595a835-5623-43e2-af50-5a0fae8709b6/",
       alt_name: "Google",
@@ -422,7 +415,7 @@ const certifications = {
     {
       title: "Basic Javascript",
       subtitle: "Harishankaran K",
-      logo_path: "ibm_logo.png",
+      logo_path: "HAckerRank.png",
       certificate_link: "https://www.hackerrank.com/certificates/025309e7a9c9",
       alt_name: "HackerRank",
       color_code: "#1F70C199",
@@ -506,59 +499,52 @@ const certifications = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "My projects makes use of vast variety of latest technology tools. My like to create functional website using for my clients. Currently i am working on Theatre and Hotel website.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      id: "Restaurant's Website",
+      name: "Restaurant's Website",
+      createdAt: "2022-06-02T16:26:54Z",
+      description:
+        "Website contains 16 restaurant with 8 dishes each, customer can order any dish from any restaurant. ",
+      url: "https://auth-development-5fb48.web.app/",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      id: "Expense Tracker",
+      name: "Expense Tracker",
+      createdAt: "2022-09-15T16:26:54Z",
+      description:
+        "Website to map expenses by the client and download the expenses in the .csv format, night mode also implemented. ",
+      url: "https://expense-tracker-75fa9.web.app/",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      id: "Mail Box Client",
+      name: "Mail Box Client",
+      createdAt: "2022-12-12T16:26:54Z",
+      description:
+        "Mail box developed to send and received the mail from anyone. ",
+      url: "https://mail-box-client-01.web.app/",
     },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
+    // {
+    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+    //   name: "Artificial Intelligence Paper",
+    //   createdAt: "2020-03-06T16:26:54Z",
+    //   description: "Paper Written on Artificial Intelligence published in xyz ",
+    //   url:
+    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+    //   name: "Artificial Intelligence Paper",
+    //   createdAt: "2020-03-06T16:26:54Z",
+    //   description: "Paper Written on Artificial Intelligence published in xyz ",
+    //   url:
+    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
   ],
 };
 
@@ -600,7 +586,6 @@ export {
   degrees,
   certifications,
   projectsHeader,
-  publicationsHeader,
   publications,
   contactPageData,
 };
