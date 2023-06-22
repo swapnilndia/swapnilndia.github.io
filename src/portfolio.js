@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Swapnil's Portfolio",
+  title: "Alok's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Swapnil Katiyar Portfolio",
+    title: "Alok Katiyar Portfolio",
     type: "website",
     url: "https://swapnilndia.web.app/#/",
   },
