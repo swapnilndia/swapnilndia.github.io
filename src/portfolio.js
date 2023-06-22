@@ -9,9 +9,9 @@ const settings = {
 const seo = {
   title: "Alok's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individu who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Alok Katiyar Portfolio",
+    title: "Alok Portfolio",
     type: "website",
     url: "https://swapnilndia.web.app/#/",
   },
